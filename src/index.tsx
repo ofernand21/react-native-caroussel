@@ -1,5 +1,3 @@
-import Caroussel from './NativeCaroussel';
+import Caroussel from './Components/Caroussel';
 
-export function multiply(a: number, b: number): number {
-  return Caroussel.multiply(a, b);
-}
+export default Caroussel;
